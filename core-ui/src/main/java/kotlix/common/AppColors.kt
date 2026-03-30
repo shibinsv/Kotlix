@@ -24,17 +24,19 @@ object AppColors {
     // 🎨 Accent system (new vibe — less neon, more premium)
     fun operatorAccentColor(index: Int): Color {
         val colors = listOf(
-            Color(0xFF8B8CFF), // Indigo (primary vibe)
-            Color(0xFF22C1A1), // Teal
-            Color(0xFFFFC857), // Soft Yellow
-            Color(0xFF9FA8DA), // Grey-Blue
-            Color(0xFFFF8A80), // Coral
-            Color(0xFF81C784), // Soft Green
-            Color(0xFFBA68C8), // Purple
-            Color(0xFF64B5F6), // Blue
-            Color(0xFFA1887F), // Warm Grey
-            Color(0xFFFFAB91)  // Peach
+
+            Color(0xFF8B8CFF), // indigo
+            Color(0xFF22C1A1), // teal
+            Color(0xFFFF8A80), // coral
+            Color(0xFF64B5F6), // blue
+            Color(0xFFBA68C8), // purple
+            Color(0xFF81C784), // green
+            Color(0xFFFFC857), // yellow
+            Color(0xFFA1887F), // warm grey
+            Color(0xFF4DD0E1), // cyan
+            Color(0xFFD4A5FF)  // soft violet
         )
+
         return colors[index % colors.size]
     }
 }
